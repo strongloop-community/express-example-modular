@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "node bin/preinstall.js",
-    "start": "NODE_PATH=lib nodemon .",
+    "start": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
