@@ -1,0 +1,17 @@
+{
+  "name": "structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node bin/preinstall.js",
+    "start": "NODE_PATH=lib nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marc Harter <wavded@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  }
+}
