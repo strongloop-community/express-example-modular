@@ -1,0 +1,8 @@
+{
+  "port": 8000,
+  "greeting": "hello production world",
+  "graylog": {
+    "host": "localhost",
+    "stdout": false
+  }
+}

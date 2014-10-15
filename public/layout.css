@@ -1,0 +1,21 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Verdana, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bright {
+  color: #fff;
+}
+
+.backdrop {
+  box-shadow: 0px 100px 20px #000;
+}
+
+pre {
+  font-size: 1.1em;
+  background-color: #eee;
+  padding: 10px;
+}

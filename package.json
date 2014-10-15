@@ -6,12 +6,14 @@
   "scripts": {
     "preinstall": "node bin/preinstall.js",
     "start": "nodemon .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "NODE_ENV=production nodemon .",
+    "test": "tape \"lib/*/test/*-test.js\""
   },
   "keywords": [],
   "author": "Marc Harter <wavded@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.2.1"
+    "nodemon": "^1.2.1",
+    "tape": "^3.0.0"
   }
 }

@@ -1,0 +1,8 @@
+extends ./layout
+
+block body
+  .text-center
+    h1 Aww... shiznit
+
+  if cfg.env === 'development'
+    pre= error.stack
